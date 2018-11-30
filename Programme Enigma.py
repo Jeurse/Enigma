@@ -1,1 +1,2 @@
-print("Hello cat")
+
+lettre = message[0]
