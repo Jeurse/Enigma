@@ -1,2 +1,1 @@
-
 lettre = message[0]
