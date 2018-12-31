@@ -1,4 +1,7 @@
 #lettre rentrée : k
-if k=="a":
-    then k=="v"
+texte=input ("saisir texte: ")
+l=len (texte)
+for k in texte:
+    if k =="a":
+       then k =="v"
 print (k)
