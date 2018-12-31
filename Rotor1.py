@@ -1,7 +1,7 @@
 #lettre rentrée : i
 texte=input ("saisir texte: ")
 l=len (texte)
-aa="a#jj
+aa="a"#jj
 bb="b"#uu
 cc="c"#hh
 dd="d"#ss
@@ -30,7 +30,7 @@ zz="z"#mm
 for i in texte:
     if i == aa:
         i,ww = ww,i
-print (i)
+print(i)
     else:
         if i == bb:
             i,oo = oo,i
@@ -43,19 +43,19 @@ print(i)
         if i == dd:
             i,mm = mm,i
 print(i)
-else:
-    if i == ee:
+    else:
+        if i == ee:
         i,tt = tt,i
 print(i)
-else:
-    if i == ff:
+    else:
+         if i == ff:
         i,qq = qq,i
 print(i)
-else:
-    if i == gg:
+    else:
+         if i == gg:
         i,yy = yy,i
 print(i)
-else:
+ else:
     if i == hh:
         i,cc = cc,i
 print(i)
