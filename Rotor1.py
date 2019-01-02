@@ -38,97 +38,97 @@ for i in texte:
 
      else:
       if i == cc:
-      i,hh = hh,i
+          i,hh = hh,i
 
       else:
        if i == dd:
-       i,mm = mm,i
+           i,mm = mm,i
 
         else:
          if i == ee:
-         i,tt = tt,i
+             i,tt = tt,i
 
          else:
           if i == ff:
-          i,qq = qq,i
+              i,qq = qq,i
 
           else:
            if i == gg:
-           i,yy = yy,i
+               i,yy = yy,i
 
            else:
             if i == hh:
-            i,cc = cc,i
+                i,cc = cc,i
 
             else:
              if i == ii:
-             i,rr = rr,i
+                 i,rr = rr,i
 
              else:
               if i == jj:
-              i,aa = aa,i
+                  i,aa = aa,i
 
               else:
                if i == kk:
-               i,uu = uu,i
+                   i,uu = uu,i
 
                else:
                 if i == ll:
-                i,jj = jj,i
+                    i,jj = jj,i
 
                 else:
                  if i == mm:
-                 i,zz = zz,i
+                     i,zz = zz,i
 
                  else:
                   if i == nn:
-                  i,ee = ee,i
+                      i,ee = ee,i
 
                   else:
                    if i == oo:
-                   i,vv = vv,i
+                       i,vv = vv,i
 
                    else:
                     if i == pp:
-                    i,ff= ff,i
+                        i,ff= ff,i
 
                     else:
                      if i == qq:
-                     i,ii = ii,i
+                         i,ii = ii,i
 
                      else:
                       if i == rr:
-                      i,ll= ll,i
+                          i,ll= ll,i
 
                       else:
                        if i == ss:
-                       i,dd = dd,i
+                           i,dd = dd,i
 
                        else:
                         if i == tt:
-                        i,pp = pp,i
+                            i,pp = pp,i
 
                         else:
                          if i == uu:
-                         i,bb = bb,i
+                             i,bb = bb,i
 
                          else:
                           if i == vv:
-                          i,gg = gg,i
+                              i,gg = gg,i
 
                           else:
                            if i == ww:
-                           i,kk = kk,i
+                               i,kk = kk,i
 
                            else:
                             if i == xx:
-                            i,nn = nn,i
+                                i,nn = nn,i
 
                             else:
                              if i == yy:
-                             i,xx = xx,i
+                                 i,xx = xx,i
 
                              else:
                               if i == zz:
-                              i,ss = ss,i
+                                  i,ss = ss,i
 print(i)
