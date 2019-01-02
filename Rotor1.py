@@ -30,55 +30,49 @@ zz="z"#mm
 for i in texte:
     if i == aa:
         i,ww = ww,i
-print(i)
     else:
-        if i == bb:
-            i,oo = oo,i
-print(i)
-    else:
-        if i == cc:
-            i,hh = hh,i
-print(i)
-    else:
-        if i == dd:
-            i,mm = mm,i
-print(i)
-    else:
-        if i == ee:
-        i,tt = tt,i
-print(i)
-    else:
-         if i == ff:
-        i,qq = qq,i
-print(i)
-    else:
-         if i == gg:
-        i,yy = yy,i
-print(i)
+     if i == bb:
+         i,oo = oo,i
+        else:
+         if i == cc:
+             i,hh = hh,i
+            else:
+             if i == dd:
+                 i,mm = mm,i
+                else:
+                 if i == ee:
+                     i,tt = tt,i
+                    else:
+                     if i == ff:
+                         i,qq = qq,i
+                        else:
+                         if i == gg:
+                             i,yy = yy,i
+
  else:
     if i == hh:
         i,cc = cc,i
-print(i)
+
 else:
     if i == ii:
         i,rr = rr,i
-print(i)
+
 else:
     if i == jj:
         i,aa = aa,i
-print(i)
+
 else:
     if i == kk:
         i,uu = uu,i
-print(i)
+
 else:
     if i == ll:
         i,jj = jj,i
-print(i)
+
 else:
     if i == mm:
         i,zz = zz,i
-print(i)
+
 else:
     if i == nn:
         i,ee = ee,i
@@ -106,27 +100,27 @@ print(i)
 else:
     if i == tt:
         i,pp = pp,i
-print(i)
+
 else:
     if i == uu:
         i,bb = bb,i
-print(i)
+
 else:
     if i == vv:
         i,gg = gg,i
-print(i)
+
 else:
     if i == ww:
         i,kk = kk,i
-print(i)
+
 else:
     if i == xx:
         i,nn = nn,i
-print(i)
+
 else:
     if i == yy:
         i,xx = xx,i
-print(i)
+
 else:
     if i == zz:
         i,ss = ss,i
