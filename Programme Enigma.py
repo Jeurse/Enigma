@@ -7,12 +7,17 @@ if reset=="oui":
     lentrée = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
     lsortie = ['w', 'h', 'm', 'b', 'p', 'j', 'c', 'x', 'a', 'n', 'q', 'f', 'd', 'u', 'r', 'k', 'i', 'y', 'e', 'v', 'g', 'z', 'l', 's', 'o', 't']
     lsortie2 = ['j', 'v', 'q', 'i', 's', 'b', 'k', 'y', 'd', 'n', 't', 'a', 'p', 'u', 'c', 'r', 'e', 'h', 'x', 'g', 'm', 'l', 'f', 'w', 'z', 'o']
+    lsortie3 = ['g','r','m','z','t','o','e','k','v','x','s','f','u','a','n','i','w','c','p','h','l','q','b','d','j','y']
     lentrée2 = lentrée
+    lentrée3 = lentrée
     t=25
     s=1
-    compteurrotor1 = 0
+    compteurrotor1 = 1
     t2=25
     s2=1
+    compteurrotor2 = 1
+    t3=25
+    s3=1
 texte=input ("saisir les lettres à remplacer dans l'ordre sans utiliser deux fois la même lettre: ")
 L1=0
 L2=0
@@ -214,10 +219,11 @@ listematrice = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,2
 listematrice2 = [23,8,13,2,16,10,3,24,1,14,17,6,4,21,18,11,9,25,5,22,7,26,12,19,15,20]
 listematrice3 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]
 listematrice4 = [10,22,17,9,19,2,11,25,4,14,20,1,16,21,3,18,5,8,24,7,13,12,6,23,26,15]
+listematrice5 = [7,18,13,26,20,15,5,11,22,24,19,6,21,1,14,9,23,3,16,8,12,17,2,4,10,25]
 lalphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
-
-lpostrotor1 = []
+lpostroror1 = []
 lpostrotor2 = []
+lpostrotor3 = []
 for i in listemessagecodé:
     lpostrotor1 = []
     if i == lentrée[0]:
@@ -274,8 +280,6 @@ for i in listemessagecodé:
         lpostrotor1.append(lsortie[25])
     if i == " ":
         lpostrotor1.append(" ")
-    del(lentrée)
-    del(lsortie)
     lentrée = []
     lsortie = []
     for i in lalphabet:
@@ -506,6 +510,7 @@ for i in listemessagecodé:
                                                                                                                 lsortie.append("z")
     s += 1
     for l in lpostrotor1:
+        lpostrotor2 =[]
         if l == lentrée2[0]:
             lpostrotor2.append(lsortie2[0])
         if l == lentrée2[1]:
@@ -791,5 +796,292 @@ for i in listemessagecodé:
                                                                                                                     if i == 26:
                                                                                                                         lsortie2.append("z")
             s2 += 1
+    for l in lpostrotor2:
+        if l == lentrée3[0]:
+            lpostrotor3.append(lsortie3[0])
+        if l == lentrée3[1]:
+            lpostrotor3.append(lsortie3[1])
+        if l == lentrée3[2]:
+            lpostrotor3.append(lsortie3[2])
+        if l == lentrée3[3]:
+            lpostrotor3.append(lsortie3[3])
+        if l == lentrée3[4]:
+            lpostrotor3.append(lsortie3[4])
+        if l == lentrée3[5]:
+            lpostrotor3.append(lsortie3[5])
+        if l == lentrée3[6]:
+            lpostrotor3.append(lsortie3[6])
+        if l == lentrée3[7]:
+            lpostrotor3.append(lsortie3[7])
+        if l == lentrée3[8]:
+            lpostrotor3.append(lsortie3[8])
+        if l == lentrée3[9]:
+            lpostrotor3.append(lsortie3[9])
+        if l == lentrée3[10]:
+            lpostrotor3.append(lsortie3[10])
+        if l == lentrée3[11]:
+            lpostrotor3.append(lsortie3[11])
+        if l == lentrée3[12]:
+            lpostrotor3.append(lsortie3[12])
+        if l == lentrée3[13]:
+            lpostrotor3.append(lsortie3[13])
+        if l == lentrée3[14]:
+            lpostrotor3.append(lsortie3[14])
+        if l == lentrée3[15]:
+            lpostrotor3.append(lsortie3[15])
+        if l == lentrée3[16]:
+            lpostrotor3.append(lsortie3[16])
+        if l == lentrée3[17]:
+            lpostrotor3.append(lsortie3[17])
+        if l == lentrée3[18]:
+            lpostrotor3.append(lsortie3[18])
+        if l == lentrée3[19]:
+            lpostrotor3.append(lsortie3[19])
+        if l == lentrée3[20]:
+            lpostrotor3.append(lsortie3[20])
+        if l == lentrée3[21]:
+            lpostrotor3.append(lsortie3[21])
+        if l == lentrée3[22]:
+            lpostrotor3.append(lsortie3[22])
+        if l == lentrée3[23]:
+            lpostrotor3.append(lsortie3[23])
+        if l == lentrée3[24]:
+            lpostrotor3.append(lsortie3[24])
+        if l == lentrée3[25]:
+            lpostrotor3.append(lsortie3[25])
+        if l == " ":
+            lpostrotor3.append(" ")
+        if compteurrotor2 == 676:
+            compteurrotor2 = 0
+            lentrée3 = []
+            lsortie3 = []
+            for i in lalphabet:
+                if t3 == 26:
+                    t3 = 0
+                if t3+1 == 1:
+                    lentrée3.append("a")
+                    t3 += 1
+
+                else:
+                    if t3+1 == 2:
+                        lentrée3.append("b")
+                        t3 += 1
+
+                    else:
+                        if t3+1 == 3:
+                            lentrée3.append("c")
+                            t3 += 1
+                        else:
+                            if t3+1 == 4:
+                                lentrée3.append("d")
+                                t3 += 1
+                            else:
+                                if t3+1 == 5:
+                                    lentrée3.append("e")
+                                    t3 += 1
+
+                                else:
+                                    if t3+1 == 6:
+                                        lentrée3.append("f")
+                                        t3 += 1
+                                    else:
+                                        if t3+1 == 7:
+                                            lentrée3.append("g")
+                                            t3 += 1
+                                        else:
+                                            if t3+1 == 8:
+                                                lentrée3.append("h")
+                                                t3 += 1
+
+                                            else:
+                                                if t3+1 == 9:
+                                                    lentrée3.append("i")
+                                                    t3 += 1
+                                                else:
+                                                    if t3+1 == 10:
+                                                        lentrée3.append("j")
+                                                        t3 += 1
+                                                    else:
+                                                        if t3+1 == 11:
+                                                            lentrée3.append("k")
+                                                            t3 += 1
+
+                                                        else:
+                                                            if t3+1 == 12:
+                                                                lentrée3.append("l")
+                                                                t3 += 1
+                                                            else:
+                                                                if t3+1 == 13:
+                                                                    lentrée3.append("m")
+                                                                    t3 += 1
+                                                                else:
+                                                                    if t3+1 == 14:
+                                                                        lentrée3.append("n")
+                                                                        t3 += 1
+
+                                                                    else:
+                                                                        if t3+1 == 15:
+                                                                            lentrée3.append("o")
+                                                                            t3 += 1
+                                                                        else:
+                                                                            if t3+1 == 16:
+                                                                                lentrée3.append("p")
+                                                                                t3 += 1
+                                                                            else:
+                                                                                if t3+1 == 17:
+                                                                                    lentrée3.append("q")
+                                                                                    t3 += 1
+
+                                                                                else:
+                                                                                    if t3+1 == 18:
+                                                                                        lentrée3.append("r")
+                                                                                        t3 += 1
+                                                                                    else:
+                                                                                        if t3+1 == 19:
+                                                                                            lentrée3.append("s")
+                                                                                            t3 += 1
+                                                                                        else:
+                                                                                            if t3+1 == 20:
+                                                                                                lentrée3.append("t")
+                                                                                                t3 += 1
+
+                                                                                            else:
+                                                                                                if t3+1 == 21:
+                                                                                                    lentrée3.append("u")
+                                                                                                    t3 += 1
+                                                                                                else:
+                                                                                                    if t3+1 == 22:
+                                                                                                        lentrée3.append("v")
+                                                                                                        t3 += 1
+                                                                                                    else:
+                                                                                                        if t3+1 == 23:
+                                                                                                            lentrée3.append("w")
+                                                                                                            t3 += 1
+
+                                                                                                        else:
+                                                                                                            if t3+1 == 24:
+                                                                                                                lentrée3.append("x")
+                                                                                                                t3 += 1
+                                                                                                            else:
+                                                                                                                if t3+1 == 25:
+                                                                                                                    lentrée3.append("y")
+                                                                                                                    t3 += 1
+                                                                                                                else:
+                                                                                                                    if t3+1 == 26:
+                                                                                                                        lentrée3.append("z")
+                                                                                                                        t3 += 1
+            t3 -= 1
+            for i in listematrice5:
+                i = i - s3
+                if s3 == 26:
+                    s3 = 0
+                if i < 0:
+                    i += 26
+                if i == 0:
+                    i += 26
+                if i == 1:
+                    lsortie3.append("a")
+
+                else:
+                    if i == 2:
+                        lsortie3.append("b")
+
+                    else:
+                        if i == 3:
+                            lsortie3.append("c")
+
+                        else:
+                            if i == 4:
+                                lsortie3.append("d")
+
+                            else:
+                                if i == 5:
+                                    lsortie3.append("e")
+
+                                else:
+                                    if i == 6:
+                                        lsortie3.append("f")
+
+                                    else:
+                                        if i == 7:
+                                            lsortie3.append("g")
+
+                                        else:
+                                            if i == 8:
+                                                lsortie3.append("h")
+
+                                            else:
+                                                if i == 9:
+                                                    lsortie3.append("i")
+
+                                                else:
+                                                    if i == 10:
+                                                        lsortie3.append("j")
+
+                                                    else:
+                                                        if i == 11:
+                                                            lsortie3.append("k")
+
+                                                        else:
+                                                            if i == 12:
+                                                                lsortie3.append("l")
+
+                                                            else:
+                                                                if i == 13:
+                                                                    lsortie3.append("m")
+
+                                                                else:
+                                                                    if i == 14:
+                                                                        lsortie3.append("n")
+
+                                                                    else:
+                                                                        if i == 15:
+                                                                            lsortie3.append("o")
+
+                                                                        else:
+                                                                            if i == 16:
+                                                                                lsortie3.append("p")
+
+                                                                            else:
+                                                                                if i == 17:
+                                                                                    lsortie3.append("q")
+
+                                                                                else:
+                                                                                    if i == 18:
+                                                                                        lsortie3.append("r")
+
+                                                                                    else:
+                                                                                        if i == 19:
+                                                                                            lsortie3.append("s")
+
+                                                                                        else:
+                                                                                            if i == 20:
+                                                                                                lsortie3.append("t")
+
+                                                                                            else:
+                                                                                                if i == 21:
+                                                                                                    lsortie3.append("u")
+
+                                                                                                else:
+                                                                                                    if i == 22:
+                                                                                                        lsortie3.append("v")
+
+                                                                                                    else:
+                                                                                                        if i == 23:
+                                                                                                            lsortie3.append("w")
+
+                                                                                                        else:
+                                                                                                            if i == 24:
+                                                                                                                lsortie3.append("x")
+
+                                                                                                            else:
+                                                                                                                if i == 25:
+                                                                                                                    lsortie3.append("y")
+
+                                                                                                                else:
+                                                                                                                    if i == 26:
+                                                                                                                        lsortie3.append("z")
+            s3 += 1
         compteurrotor1 += 1
-        print("".join(lpostrotor2))
+        compteurrotor2 += 1
+print("".join(lpostrotor3))
