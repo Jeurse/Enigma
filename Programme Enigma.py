@@ -40,6 +40,9 @@ if l < 6:
     print ("il faut tapper 6 lettres on pourra remplacer une des lettres par la même")
 compteur=0
 for i in texte:
+    liste.append(i)
+    '''
+for i in texte:
     if i == "a":
         liste.append(i)
     if i == "b":
@@ -92,7 +95,7 @@ for i in texte:
         liste.append(i)
     if i == "z":
         liste.append(i)
-
+'''
 liste2=[]
 print ("ne pas utiliser les lettres",liste,"sauf pour remplacer une lettre par la même")
 for i in liste:
