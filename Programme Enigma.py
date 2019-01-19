@@ -41,61 +41,6 @@ if l < 6:
 compteur=0
 for i in texte:
     liste.append(i)
-    '''
-for i in texte:
-    if i == "a":
-        liste.append(i)
-    if i == "b":
-        liste.append(i)
-    if i == "c":
-        liste.append(i)
-    if i == "d":
-        liste.append(i)
-    if i == "e":
-        liste.append(i)
-    if i == "f":
-        liste.append(i)
-    if i == "g":
-        liste.append(i)
-    if i == "h":
-        liste.append(i)
-    if i == "i":
-        liste.append(i)
-    if i == "j":
-        liste.append(i)
-    if i == "k":
-        liste.append(i)
-    if i == "l":
-        liste.append(i)
-    if i == "m":
-        liste.append(i)
-    if i == "n":
-        liste.append(i)
-    if i == "o":
-        liste.append(i)
-    if i == "p":
-        liste.append(i)
-    if i == "q":
-        liste.append(i)
-    if i == "r":
-        liste.append(i)
-    if i == "s":
-        liste.append(i)
-    if i == "t":
-        liste.append(i)
-    if i == "u":
-        liste.append(i)
-    if i == "v":
-        liste.append(i)
-    if i == "w":
-        liste.append(i)
-    if i == "x":
-        liste.append(i)
-    if i == "y":
-        liste.append(i)
-    if i == "z":
-        liste.append(i)
-'''
 liste2=[]
 print ("ne pas utiliser les lettres",liste,"sauf pour remplacer une lettre par la même")
 for i in liste:
