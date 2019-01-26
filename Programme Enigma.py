@@ -93,6 +93,7 @@ if paramètre=="oui":
     lsortie2 = ['j', 'v', 'q', 'i', 's', 'b', 'k', 'y', 'd', 'n', 't', 'a', 'p', 'u', 'c', 'r', 'e', 'h', 'x', 'g', 'm', 'l', 'f', 'w', 'z', 'o']
     lsortie3 = ['g','r','m','z','t','o','e','k','v','x','s','f','u','a','n','i','w','c','p','h','l','q','b','d','j','y']
     lentréeb3 = ['j', 'u', 'q', 'z', 'h', 'l', 'x', 'e', 'm', 'a', 'y', 'f', 'i', 't', 's', 'v', 'c', 'w', 'o', 'n', 'b', 'p', 'r', 'g', 'k', 'd']
+    lalphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
     lentrée2 = lentrée
     lentrée3 = lentrée
     lsortieb = lentrée
