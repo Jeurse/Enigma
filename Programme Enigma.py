@@ -1,5 +1,5 @@
 #ne pas mettre de chiffres, ponctuation accents dans le listemessage
-#respecter les instructions sous peine de faire buger le programme
+#respecter les instructions sous peine de faire buguer le programme
 #en cas de quelconque problème ou erreur relancez le programme
 #et reinitialisez la machine en ecrivant "oui" (sans majuscule) quand demandé
 reset=input ("voulez vous reset la machine ?:")
