@@ -1,5 +1,5 @@
 #ne pas mettre de chiffres, ponctuation accents dans le listemessage
-#respecter les instructions sous peine de faire buguer le programme
+#respecter les instructions sous peine de faire buger le programme
 #en cas de quelconque problème ou erreur relancez le programme
 #et reinitialisez la machine en ecrivant "oui" (sans majuscule) quand demandé
 reset=input ("voulez vous reset la machine ?:")
@@ -116,11 +116,15 @@ if paramètre=="oui":
     rotor1=int(input("définir le cran du premier rotor: "))
     if rotor1 > 26 or rotor1 < 1:
         print ("///le rotor n'a que 26 crans numérotés de 1 à 26///")
+        print("/// le rotor sera remis au premier cran///")
     else:
         rotor1 -= 1
-        lentrée = []
-        lsortie = []
+        if rotor1 == 0:
+            lentrée = lalphabet
+            lsortie=['w','h','m','b','p','j','c','x','a','n','q','f','d','u','r','k','i','y','e','v','g','z','l','s','o','t']
         for l in range(rotor1):
+            lentrée = []
+            lsortie = []
             for i in lalphabet:
                 if t == 26:
                     t = 0
@@ -351,11 +355,15 @@ if paramètre=="oui":
     rotor2=int(input("définir le cran du deuxième rotor: "))
     if rotor2 > 26 or rotor2 < 1:
         print ("///le rotor n'a que 26 crans numérotés de 1 à 26///")
+        print("/// le rotor sera remis au premier cran///")
     else:
         rotor2 -= 1
-        lentrée2 = []
-        lsortie2 = []
+        if rotor2 == 0:
+            lentrée2 = lalphabet
+            lsortie2 = ['j','v','q','i','s','b','k','y','d','n','t','a','p','u','c','r','e','h','x','g','m','l','f','w','z','o']
         for l in range(rotor2):
+            lentrée2 = []
+            lsortie2 = []
             for i in lalphabet:
                 if t2 == 26:
                     t2 = 0
@@ -586,13 +594,19 @@ if paramètre=="oui":
     rotor3=int(input("définir le cran du troisième rotor: "))
     if rotor3 > 26 or rotor3 < 1:
         print ("///le rotor n'a que 26 crans numérotés de 1 à 26///")
+        print("/// le rotor sera remis au premier cran///")
     else:
         rotor3 -= 1
-        lentrée3 = []
-        lsortie3 = []
-        lentrée4 = []
-        lentréeb3 = []
+        if rotor3 == 0:
+            lentrée3 = lalphabet
+            lentrée4 = lalphabet
+            lsortie3 = ['g','r','m','z','t','o','e','k','v','x','s','f','u','a','n','i','w','c','p','h','l','q','b','d','j','y']
+            lentréeb3 = ['j', 'u', 'q', 'z', 'h', 'l', 'x', 'e', 'm', 'a', 'y', 'f', 'i', 't', 's', 'v', 'c', 'w', 'o', 'n', 'b', 'p', 'r', 'g', 'k', 'd']
         for l in range(rotor3):
+            lentrée3 = []
+            lsortie3 = []
+            lentrée4 = []
+            lentréeb3 = []
             for i in lalphabet:
                 if t3 == 26:
                     t3 = 0
